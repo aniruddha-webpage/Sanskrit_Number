@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <!-- Small Top Banner -->
 <div class="top-banner">
   <div class="banner-content">
@@ -78,7 +85,7 @@
 <title>संख्या</title>
 
 <style>
-@page { size: A4; margin: 0; }
+
 
 body {
     font-family: "Noto Sans Devanagari", sans-serif;
@@ -103,7 +110,8 @@ body {
 
 /* 📄 Page Glass Effect */
 .page {
-    width: 350mm;
+    width: 95%;
+     max-width: 1200px;
     height: 297mm;
     margin: auto;
     padding: 10mm;
@@ -256,6 +264,12 @@ h1 {
 
 
 
+
+/* Mobile FIX */
+@media (max-width: 600px) {
+    h1 { font-size: 18px; }
+    .box { font-size: 14px; padding: 8px; }
+}
 
 
 
